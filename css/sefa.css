@@ -1,0 +1,89 @@
+#sefa-wrapper h1 {
+	font-size: 2.8em;
+	font-weight: 200;
+	margin-bottom: 26px;
+	margin-left: -4px;
+}
+#sefa-wrapper h1:before {
+    font-family: "dashicons";
+    content: "\f465";
+    top: 8px;
+    position: relative;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+#sefa-wrapper div.error ul li {
+	list-style: initial;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+#sefa-wrapper div.updated {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#sefa-form .form-table {
+	margin-top: 0;
+}
+#sefa-form .form-table tr:first-child th {
+	padding-top: 5px;
+}
+#sefa-form .form-table tr:first-child td {
+	padding-top: 0;
+}
+#sefa-form .form-table th {
+	width: auto;
+	min-width: 100px;
+}
+#sefa-form .form-table td {
+	vertical-align: text-top;
+}
+#sefa-form .form-table tr:last-child td {
+	padding: 0 10px;
+}
+#sefa-form input[type=text],
+#sefa-form input[type=email],
+#sefa-form textarea,
+#sefa-form .wp-editor-wrap {
+	width: 100%;
+	padding: 6px 10px
+}
+#sefa-form .sefa-radio-wrap {
+	display: inline;
+}
+#sefa-form .wp-editor-wrap {
+	padding-left: 0;
+}
+#sefa-form #sefa-user-list {
+	margin-top: 7px;
+}
+#sefa-form .note {
+	font-size: 12px;
+	color: #888;
+	padding: 5px 0 0 1px;
+}
+
+@media screen and (max-width: 1300px) {
+    #sefa-wrapper {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 900px) {
+	#sefa-form .sefa-radio-wrap {
+		display: block;
+	}
+}
+@media screen and (max-width: 850px) {
+	#sefa-wrapper .postbox {
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width: 500px) {
+    #sefa-wrapper h1 {
+		font-size: 2em;
+		margin-left: 0;
+	}
+	#sefa-wrapper h1:before {
+	    top: 6px;
+	}
+}

@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Email From Admin\n"
+"POT-Creation-Date: 2015-10-28 13:05-0330\n"
+"PO-Revision-Date: 2015-10-28 13:05-0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: simple-email-from-admin.php:73
+msgid "Please enter an email recipient in the To: field."
+msgstr "S'il vous plaît entrer une adresse e-mail dans le champ A:."
+
+#: simple-email-from-admin.php:87
+msgid "Please enter a Subject."
+msgstr "S'il vous plaît entrer un sujet."
+
+#: simple-email-from-admin.php:88
+msgid "Please enter a Message."
+msgstr "S'il vous plaît entrer un message."
+
+#: simple-email-from-admin.php:98
+msgid "Your email has been successfully sent!"
+msgstr "Votre e-mail a été envoyé avec succès!"
+
+#: simple-email-from-admin.php:100
+msgid "There was an error sending the email."
+msgstr "Il y avait une erreur d'envoi du courriel."
+
+#: simple-email-from-admin.php:105
+msgid "Your email has been successfully sent to "
+msgstr "Votre courriel a été envoyé avec succès à "
+
+#: simple-email-from-admin.php:107
+msgid "There was an error sending the email to "
+msgstr "Il y avait une erreur d'envoi de l'e-mail "
+
+#: simple-email-from-admin.php:115
+msgid "Send Email From Admin"
+msgstr ""
+
+#: simple-email-from-admin.php:138
+msgid "These can be changed in Settings->General."
+msgstr "Ceux-ci peuvent être modifiés en Settings->General."
+
+#: simple-email-from-admin.php:142
+msgid ""
+"To send to multiple recipeints, enter each email address seperated by a "
+"comma or choose from the user list below."
+msgstr ""
+"Pour envoyer à plusieurs destinataires, entrez chaque adresse mail séparée "
+"par une virgule ou choisir parmi la liste des utilisateurs ci-dessous."
+
+#: simple-email-from-admin.php:144
+msgid "user list"
+msgstr "la liste des utilisateurs"
+
+#: simple-email-from-admin.php:163
+msgid "Send each recipient an individual email"
+msgstr "Envoyer un e-mail chaque destinataire individuel"
+
+#: simple-email-from-admin.php:166
+msgid "Send a group email to all recipients"
+msgstr "Envoyer un e-mail de groupe à tous les destinataires"
+
+#: simple-email-from-admin.php:188
+msgid "Send Message"
+msgstr "Envoyer le message"
