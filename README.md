@@ -1,0 +1,1 @@
+# fotosnap-plugins
