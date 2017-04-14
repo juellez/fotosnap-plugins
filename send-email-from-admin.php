@@ -163,6 +163,13 @@ function sefa_plugin_main() {
 	    }
 	}	
 
+	$default_to = '';
+	$default_gallery = 'http://photos.fotosnap.co/{slug}';
+	$default_password = '{password}';
+	if( !empty($_GET['to']) ) $default_to = $_GET['to'];
+	if( !empty($_GET['gallery']) )  $default_gallery  = $_GET['gallery'];
+	if( !empty($_GET['password']) ) $default_password = $_GET['password'];
+
 	$messages = array(
 		'email_photos_ready_reminder' => "
 Hi,
@@ -210,14 +217,8 @@ ps. To tell the world about your FotoSnap experience, share us on <a href=\"http
 "
 	);
 
-	$default_to = '';
-	$default_gallery = 'http://photos.fotosnap.co/{slug}';
-	$default_password = '{password}';
 	$default_id = 0;
 	$default_message = $messages['email_photos_ready'];
-	if( !empty($_GET['gallery']) )  $default_gallery  = $_GET['gallery'];
-	if( !empty($_GET['password']) ) $default_password = $_GET['password'];
-	if( !empty($_GET['to']) ) $default_to = $_GET['to'];
 	if( !empty($_GET['event']) && !empty($messages[$_GET['event']]) ){
 		$default_message = $messages[$_GET['event']];
 	}
@@ -319,8 +320,9 @@ You'll be able to download your images immediately upon checkout and you'll also
 				</div>
 				<div id="postbox-container-1" class="postbox-container">
 					<div class="postbox">
-						<h3><span>Like this plugin?</span></h3>
+						<h3><span>Templates</span></h3>
 						<div class="inside">
+							<ul>Select a template to pre-fill
 							<ul>
 								<li><a href="https://wordpress.org/support/view/plugin-reviews/send-email-from-admin?filter=5" target="_blank">Rate it on WordPress.org</a></li>
 								<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8HHLL6WRX9Z68" target="_blank">Donate to the developer</a></li>
